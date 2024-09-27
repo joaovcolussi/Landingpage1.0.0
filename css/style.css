@@ -1,0 +1,106 @@
+
+
+body {
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #111;
+}
+
+.cabecalho-imagem {
+  width: 120px;
+  height: auto;
+}
+
+.cabecalho-menu-item {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.cabecalho-menu-item:hover {
+  color: #ffcc00;
+}
+
+.conteudo-mid {
+  display: flex;
+  flex-direction: column;
+  gap: 30px; 
+}
+
+.texto-sobre-imagem-container {
+  position: relative;
+  width: 100vw; 
+  height: 100vh; 
+  margin: 0;
+}
+
+.texto-sobre-imagem-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 0; 
+}
+
+
+.texto-sobre-imagem {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 70%;
+}
+
+.texto-sobre-imagem h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.texto-sobre-imagem p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
+}
+
+#conteudo-rodape {
+  width: 200px;
+  height: auto;
+}
+
+
+#video-menu{
+  width: 100%;
+  height: 100%;
+}
+
+
+#button-menu{
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #fdf500;
+}

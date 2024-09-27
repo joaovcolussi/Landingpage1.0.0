@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #1e1e1e; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid #ff6a00; 
+}
+
+.menu-login {
+  background-color: #2e2e2e; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #ffcc00;
+}
+
+.menu-login label {
+  margin-bottom: 5px;
+  color: #ffcc00; 
+  font-weight: bold;
+}
+.menu-login input[type="text"],
+.menu-login input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ffcc00; 
+  border-radius: 5px;
+  background-color: #1e1e1e; 
+  color: #fff; 
+}
+
+.menu-login input[type="text"]:focus,
+.menu-login input[type="password"]:focus {
+  outline: none;
+  border-color: #ffcc00; 
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #ffcc00;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease; 
+}
+
+button:hover {
+  background-color: #ffcc00;
+}
+
+.psw {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.psw a {
+  color: #ffcc00; 
+  text-decoration: none;
+}
+
+.psw a:hover {
+  text-decoration: underline; 
+}

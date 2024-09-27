@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./css/style-login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="imgcontainer">
+            <img src="./img/login-cadastroimagemavatar.webp" alt="Avatar" class="avatar">
+        </div>
+
+        <form action="index.html" method="post">
+            <div class="menu-login">
+                <label for="uname"><b>Nome de Usuário</b></label>
+                <input type="text" placeholder="Digite seu nome de usuário" name="uname" id="uname" required>
+
+                <label for="email"><b>Email</b></label>
+                <input type="password" placeholder="Digite sua senha" name="psw" id="psw" required>
+
+                <label for="psw-confirm"><b>Senha</b></label>
+                <input type="password" placeholder="Senha" name="psw-confirm" id="psw-confirm" required>
+
+                <button type="submit">Cadastrar</button>
+            </div>
+        </form>
+
+        <span class="psw"><a href="login.html">Já tem uma conta? Faça login</a></span> 
+    </div>
+</body>
+</html>
